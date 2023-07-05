@@ -1,0 +1,7 @@
+CLASS zbp_c_businesspartner2 DEFINITION PUBLIC ABSTRACT final for behavior of ZC_BusinessPartner2.
+ENDCLASS.
+
+
+
+CLASS ZBP_C_BUSINESSPARTNER2 IMPLEMENTATION.
+ENDCLASS.

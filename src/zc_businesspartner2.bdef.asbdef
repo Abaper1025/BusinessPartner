@@ -1,0 +1,11 @@
+unmanaged implementation in class zbp_c_businesspartner2 unique;
+define behavior for ZC_BusinessPartner2 //alias <alias_name>
+//late numbering
+authorization master ( instance )
+
+{  field ( readonly ) supplier;
+     function get_all_data parameter zbpparn1 result [0..*] entity ZC_BusinessPartner2;
+     function save_log_data parameter zbpparn1 result [0..*] entity ZC_BusinessPartner2;
+
+
+}

@@ -1,0 +1,8 @@
+projection;
+
+define behavior for zp_BusinessPartner2 //alias <alias_name>
+{
+   use function get_all_data;
+   use function save_log_data;
+
+}
